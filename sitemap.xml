@@ -3,12 +3,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url><loc>https://martelleur.github.io/TheWolfs/index.html</loc></url>
+   
+   
    <url><loc>https://martelleur.github.io/TheWolfs/startsida.html</loc></url>
+   
+   
    <url><loc>https://martelleur.github.io/TheWolfs/matcher.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Matcher/schema.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Matcher/tidigareMatcher.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Matcher/biljetter.html</loc></url>
+   
+   
    <url><loc>https://martelleur.github.io/TheWolfs/events.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Events/biljetter.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Events/infoEvents.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Events/schema.html</loc></url>
+   
+   
    <url><loc>https://martelleur.github.io/TheWolfs/webbshop.html</loc></url>
+   
+   
    <url><loc>https://martelleur.github.io/TheWolfs/ungdomsTraning.html</loc></url>
+   
+   
    <url><loc>https://martelleur.github.io/TheWolfs/amerikanskFotboll.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/historia.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/speletsIdé.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/regler.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/positioner.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/playbook.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/domare.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/utrustning.html</loc></url>
+   
+   
    <url><loc>https://martelleur.github.io/TheWolfs/sponsorer.html</loc></url>
-
+    
 </urlset>
