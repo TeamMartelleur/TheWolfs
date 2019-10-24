@@ -223,6 +223,7 @@ footer {
 
 footer .hrLinje {
     border: 1px solid var(--black-bg);
+    color: var(--black-bg);
 }
 
 /*---Cascade for #wrapper---*/

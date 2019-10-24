@@ -52,13 +52,14 @@ main form button {display: block; margin: 0 auto;}
 	}
 	main fieldset {
 		margin: 0px;
+		margin-bottom:10px;
 		box-shadow: 1px 1px 10px var(--black-bg);
 	}
   	
   
 }
-/* ----- Stil för form  max-width:300px----- */
-@media screen and (max-width:300px) {
+/* ----- Stil för form  max-width:350px----- */
+@media screen and (max-width:350px) {
 	main form {
 		padding:0;
 	}
@@ -67,5 +68,6 @@ main form button {display: block; margin: 0 auto;}
 		box-shadow: none;
 		border-left:0;
 		border-right:0;
+		margin-bottom: 0;
 	}
 }
