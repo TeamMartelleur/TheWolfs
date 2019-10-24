@@ -45,13 +45,27 @@ form label {display: block;}
 
 form button {display: block; margin: 0 auto;}
 
-/* ----- Stil för form  max-width:700px----- */
-@media screen and (max-width:700px) {
-	#form {text-align:left;}
-	#form label span {float:none; display:block;}
+/* ----- Stil för form  max-width:500px----- */
+@media screen and (max-width:500px) {
+	form legend {
+		font-size: 1em;
+	}
+	fieldset {
+		margin: 0px;
+		box-shadow: 1px 1px 10px var(--black-bg);
+	}
+  	
+  
 }
-
-/* ----- Stil för form  max-width:400px----- */
-@media screen and (max-width:400px) {
-	#form input[type=text], #form textarea {width:96%;}
+/* ----- Stil för form  max-width:300px----- */
+@media screen and (max-width:300px) {
+	form {
+		padding:0;
+	}
+	
+	fieldset {
+		box-shadow: none;
+		border-left:0;
+		border-right:0;
+	}
 }
