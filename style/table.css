@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*---varibalar till färger---*/
+:root {
+    --black-bg: #000000; /*svart bakgrund*/
+    --white-bg: #ffffff; /*vit bakgrund*/  
+    --purple-bg: #800080; /*purple*/
+    --gy-bg: #000066; /*darkBlue*/
+    --bv-bg:  #8a2be2; /*blueViolette*/
+    --pS24-bg: #806180; /*purple saturnation 24%*/
+    --bvS24-bg: #c6abe0; /*blueViolette saturnation 24%*/
+    --dBS24-bg: #4e4e66; /**darkBlue saturnation 24%*/
+    --black-text: #000000; /*normal text*/
+    --white-text: #ffffff; /*vit text*/ 
+    --titleShadow-1: #ededed; 
+    --titleShadow-2: #00000026;
+    --titleColor-3: #2b2b2b;
+}
+
+/*---Cascade for table---*/
+.tableDiv {
+    width: 80%; /*1200/1500*/
+    background-color: var(--white-bg);
+    color: var(--black-text); 
+    margin: 0 auto;
+    border-radius: 10px;
+    padding:2%; /*30px*/ 
+
+
+}
+th, td {
+    border: 1px	solid var(--black-bg); 
+    padding: 5px;}
+table {
+    border-collapse:collapse;  
+    max-width: 800px; 
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px var(--black-bg);
+    margin-bottom: 2%; /*30px;*/
+}
+tr {
+    background-color: var(--white-bg);
+    color: var(--black-text);
+}
+th {
+    background-color: var(--white-bg); 
+    color: var(--black-text);
+}
+tr:nth-child(odd) {
+    background-color:var(--bvS24-bg);
+}
+/*---media query max-width:750px ---*/
+@media screen and (max-width:750px) {
+    .tableDiv {
+        width: 95%;
+
+    }
+    .tableDiv h1 {
+        font-size: 1.5em;
+    }
+}
+/*---media query max-width:500px ---*/
+@media screen and (max-width:500px) {
+    .tableDiv {
+        border-radius: 0;
+    }
+    table {
+        box-shadow: none;
+        width: 100%;
+    }
+    th,td {
+        display: block;
+    }
+}

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/*---varibalar till färger---*/
+:root {
+    --black-bg: #000000; /*svart bakgrund*/
+    --white-bg: #ffffff; /*vit bakgrund*/  
+    --purple-bg: #800080; /*purple*/
+    --gy-bg: #000066; /*darkBlue*/
+    --bv-bg:  #8a2be2; /*blueViolette*/
+    --pS24-bg: #806180; /*purple saturnation 24%*/
+    --bvS24-bg: #c6abe0; /*blueViolette saturnation 24%*/
+    --dBS24-bg: #4e4e66; /**darkBlue saturnation 24%*/
+    --black-text: #000000; /*normal text*/
+    --white-text: #ffffff; /*vit text*/ 
+    --titleShadow-1: #ededed; 
+    --titleShadow-2: #00000026;
+    --titleColor-3: #2b2b2b;
+}
+
+/*---cascade för omgivningen---*/
+.event, .sponsor, .juniorlag, .online, .amerikanskFotboll {
+    display: block;
+    background-color: var(--bvS24-bg);
+    max-width: 66.66666666666667%; /*1000/1500*/
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    color: var(--black-text);
+    border: 3px solid var(--black-bg);
+}
+
+/*---cascade för rubriken---*/
+.event h2, .sponsor h2, .juniorlag h2, .online h2, .amerikanskFotboll h2{
+   font-size: 4em;
+   background-color: var(--white-bg);
+   text-align: center;
+   margin: 20px;
+   border-radius: inherit;
+   border: inherit;
+   box-shadow: 1px 1px 10px var(--black-bg);
+   
+}
+
+/*---cascade för texten---*/
+.event div, .sponsor div, .juniorlag div, .online div, .amerikanskFotboll div {
+   background-color: var(--white-bg);
+   text-align: left;
+   margin: 20px;
+   border-radius: inherit;
+   border: inherit;
+   box-shadow: 1px 1px 10px var(--black-bg);
+   padding: 5px;
+}
+
+/*---cascade för bilder---*/
+.event img, .sponsor img, .juniorlag img, .online img{
+    display: block;
+    margin: 0 auto;
+    width: 50%; /*500/1000*/
+    border-radius: inherit;
+    border: inherit;
+    box-shadow: 1px 1px 10px var(--black-bg);
+}
+
+/* ----- Stil för form  max-width:1000px----- */
+@media screen and (max-width:1000px) {
+    .event img, .sponsor img, .juniorlag img, .online img {
+        width: 90%;
+        box-shadow: none;
+    }
+    .event, .sponsor, .juniorlag, .online, .amerikanskFotboll {
+        max-width: 100%;
+        margin: 0px;
+    }
+    .event h2, .sponsor h2, .juniorlag h2, .online h2, .amerikanskFotboll h2{
+        font-size: 3em;
+        box-shadow: none;
+    }
+    .event div, .sponsor div, .juniorlag div, .online div, .amerikanskFotboll div {
+        box-shadow: none;
+    }
+    main {
+        padding:0;
+        margin: 0;
+    }
+}
+
+/* ----- Stil för form  max-width:500px----- */
+@media screen and (max-width:500px) {
+    .event h2, .sponsor h2, .juniorlag h2, .online h2, .amerikanskFotboll h2{
+        display: none;
+    }
+    .event img, .sponsor img, .juniorlag img, .online img {
+        width: 100%;
+        border-radius: 0;
+        border: none;
+    }
+    .event, .sponsor, .juniorlag, .online, .amerikanskFotboll {
+        max-width: 100%;
+        padding: 0px;
+        border: none;
+
+    }
+    .event div, .sponsor div, .juniorlag div, .online div, .amerikanskFotboll div {
+        max-width: 100%;
+        border-radius: 0;
+        margin: 0;
+        border: none;
+    }
+    
+}

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/*---varibalar till färger---*/
+:root {
+  --black-bg: #000000; /*svart bakgrund*/
+  --white-bg: #ffffff; /*vit bakgrund*/  
+  --purple-bg: #800080; /*purple*/
+  --gy-bg: #000066; /*darkBlue*/
+  --bv-bg:  #8a2be2; /*blueViolette*/
+  --pS24-bg: #806180; /*purple saturnation 24%*/
+  --bvS24-bg: #c6abe0; /*blueViolette saturnation 24%*/
+  --dBS24-bg: #4e4e66; /**darkBlue saturnation 24%*/
+  --black-text: #000000; /*normal text*/
+  --white-text: #ffffff; /*vit text*/ 
+  --titleShadow-1: #ededed; 
+  --titleShadow-2: #00000026;
+  --titleColor-3: #2b2b2b;
+}
+
+/*---caccade till slideDiv---*/
+#slideDiv { 
+  background-color: var(--bv-bg);
+  border: 3px solid var(--black-bg);
+}
+#slideDiv a, #slideDiv p{
+  color: var(--black-text);
+  border: 2px solid var(--black-bg);
+  box-shadow: 1px 1px 10px var(--black-bg);
+  background-color: var(--purple-bg);
+  text-decoration: none;
+}
+
+#slideDiv a:hover {
+  background-color: var(--bv-bg);
+  text-decoration: underline;
+}
+
+/*---cascade till slide och slideshow---*/
+#slideshow {
+  overflow: hidden;
+  height: 510;
+  width: 728px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 3px solid var(--black-bg);
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+/*---cascade till slidwCount och #slideshowCount---*/
+.slideCount {text-align: center; font-size: 2em;}
+
+.slideCount {
+  float: left;
+  height: 100px;
+  width: 728px;
+}
+
+.slideCount p {
+  border: 1px solid var(--black-bg); 
+  max-width: 100px; 
+  margin: 0 auto; 
+  border-radius: 10px; 
+  background-color:var(--white-bg);
+  margin-top: 5px;
+}
+.slideCount span {text-decoration: underline;}
+
+.slideCount a {padding: 5px;}
+
+#slideshowCount {
+  overflow: hidden;
+  height: 100px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+/*---caccade till slide-wrapper---*/
+.slide-wrapper {
+  width: 2912px;
+  animation: slide 36s ease infinite;
+}
+
+/*---cascade till bilderna---*/
+.slide:nth-child(1) {
+  background-image: url(../pics/picsMatcher/matcher1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.slide:nth-child(2) {
+  background-image: url(../pics/picsMatcher/matcher2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide:nth-child(3) {
+  background-image: url(../pics/picsMatcher/matcher3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide:nth-child(4) {
+    background-image: url(../pics/picsMatcher/matcher4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+/*---reglerna för uppdelning av tiden för slide---*/
+@keyframes slide {
+  0% {margin-left: 0px;}
+  30% {margin-left: 0px;}
+  35% {margin-left: -728px;}
+  65% {margin-left: -728px;}
+  70% {margin-left: -1456px;}
+  95% {margin-left: -1456px;}
+  100% {margin-left: 0px;}
+}
+
+/* ----- Stil för form  max-width:950px----- */
+@media screen and (max-width:950px) {
+  #slideDiv {
+    padding: 0;
+    margin:0;
+    border: 0;
+  }
+  main {
+    padding:0;
+  }
+
+}
+/* ----- Stil för form  max-width:950px----- */
+@media screen and (max-width:750px) {
+  #slideDiv {
+    display: none;
+  } 
+  body {
+    background-image: none;
+  }
+}

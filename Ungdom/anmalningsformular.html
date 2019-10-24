@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ungdomsträning | The Official Webbsite of The Wolfs</title>
+    <link rel = "icon" href = "../pics/wolfIcon.png" type = "image/x-icon">
+    <link href="../style/style.css" type="text/css" rel="stylesheet">
+    <link href="../style/forms.css" type="text/css" rel="stylesheet">
+    <link href="../style/dropdown.css" type="text/css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id=wrapper>
+        <header>
+           <h1></h1>
+        </header>
+        <nav>
+            <ul id = "globalNavigering">
+                <li><a href="../startsida.html">Startsida</a></li>
+                <li><a href="../matcher.html">Matcher</a></li>
+                <li><a href="../events.html">Events</a></li>
+                <li><a href="../webbshop.html">Webbshop</a></li>
+                <li><a href="../ungdomsTraning.html" id="thisSection">Ungdomsträning</a></li>
+                <li><a href="../amerikanskFotboll.html">Amerikansk Fotboll</a></li>
+                <li><a href="../sponsorer.html">Sponsorer</a></li>
+            </ul>
+            <ul id = "localNavigering">
+                <li><a href="onlineSpel.html">Amerikansk Fotboll Online</a></li>
+                <li><a id="thisPage" href="anmalningsformular.html">Anmälningsformulär</a></li>
+                <li>
+                    <div class="dropdown">
+                        <span><a href="../ungdomsTraning.html">Juniorlag</a></span>
+                        <div class="dropdown-content">
+                            <a href="f10.html">Flickor 10</a><br><br>
+                            <a href="f12.html">Flickor 12</a><br><br>
+                            <a href="f14.html">Flickor 14</a><br><br>
+                            <a href="f16.html">Flickor 16</a><br><br>
+                            <a href="p10.html">Pojkar 10</a><br><br>
+                            <a href="p12.html">Pojkar 12</a><br><br>
+                            <a href="p14.html">Pojkar 14</a><br><br>
+                            <a href="p16.html">Pojkar 16</a><br><br>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <span><a href="../ungdomsTraning.html">Träningstider</a></span>
+                        <div class="dropdown-content">
+                            <a href="traningstiderHt2019.html">Träningstider ht 2019</a><br><br>
+                            <a href="traningstiderVt2020.html">Träningstider vt 2020</a><br><br>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <span><a href="../ungdomsTraning.html">Matcher</a></span>
+                        <div class="dropdown-content">
+                            <a href="matcherF10.html">Flickor 10</a><br><br>
+                            <a href="matcherF12.html">Flickor 12</a><br><br>
+                            <a href="matcherF14.html">Flickor 14</a><br><br>
+                            <a href="matcherF16.html">Flickor 16</a><br><br>
+                            <a href="matcherP10.html">Pojkar 10</a><br><br>
+                            <a href="matcherP12.html">Pojkar 12</a><br><br>
+                            <a href="matcherP14.html">Pojkar 14</a><br><br>
+                            <a href="matcherP16.html">Pojkar 16</a><br><br>
+                         </div>
+                    </div>
+                </li>
+            </ul>
+            <ul id="breadcrumb">
+                <li>
+                    <a class="breadcrumb" href="../startsida.html">Startsida &gt;</a>
+                </li>
+                <li>
+                    <a class="breadcrumb" href="../ungdomsTraning.html">Ungdomsträning &gt;</a>
+                </li>
+                <li>
+                    <span class="breadcrumb">Anmälningsformulär</span>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            
+            <form id="notificationForm" name="notificationForm" method="post" action="">
+                <fieldset>
+                    <h2>Anmälningsformulär</h2>
+                    <h2>Anmälan till barn &amp; ungdomsträning för The Wolfs</h2>
+                </fieldset>
+                
+                <fieldset>
+                    <h3>Personuppgifter</h3>
+                    <h5>Fyll i fullständiga uppgifter för den anmälan gäller</h5>
+                
+                    <input type="hidden" name="form" value="Kontakt på Gretas Blommor">
+                
+                    <label>Förnamn</label>
+                    <input type="text" name="firstName">
+                
+                    <label>Efternamn</label> 
+                    <input type="text" name="surName">
+                
+                    <label>Kön</label>
+                    <select name="44702.gender" class="form-control" id="44702.gender" required="true">
+                        <option value="">Välj kön</option>
+                        <option value="MALE">Man</option>
+                        <option value="FEMALE">Kvinna</option>
+                    </select>
+                
+                    <label>Personnummer</label> 
+                    <input type="date" name="birthdate">
+                
+                    <label>E-post</label>
+                    <input type="email" name="email">
+                
+                    <label>Mobil</label>
+                    <input type="tel" name="phone"></input>
+                </fieldset>
+                
+                <fieldset>
+                    <h3>Adressuppgifter</h3>
+                    <h5>Fyll i adressuppgifter för den anmälan gäller</h5>
+                    <label>Adress 1</label>
+                    <input type="text" name="firstName">
+                
+                    <label>Adress 2</label>
+                    <input type="text" name="surName">
+                
+                    <label>Postnummer</label>
+                    <input type="text" name="surName">
+                
+                    <label>Ort</label>
+                    <input type="text" name="surName">
+                </fieldset>
+                
+                <fieldset>
+                    <label><input type="checkbox" name="sendAd" checked>Jag godkänner villkoren för anmälan</label>
+                    <input type="submit" value="Skicka">
+                </fieldset>
+            </form>
+            
+        </main>
+        <footer>
+            <hr>
+            <br>
+            Joel Martelleur
+            <br>
+            <hr>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

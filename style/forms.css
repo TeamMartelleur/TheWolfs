@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*---varibalar till färger---*/
+:root {
+    --black-bg: #000000; /*svart bakgrund*/
+    --white-bg: #ffffff; /*vit bakgrund*/  
+    --purple-bg: #800080; /*purple*/
+    --gy-bg: #000066; /*darkBlue*/
+    --bv-bg:  #8a2be2; /*blueViolette*/
+    --pS24-bg: #806180; /*purple saturnation 24%*/
+    --bvS24-bg: #c6abe0; /*blueViolette saturnation 24%*/
+    --dBS24-bg: #4e4e66; /**darkBlue saturnation 24%*/
+    --black-text: #000000; /*normal text*/
+    --white-text: #ffffff; /*vit text*/ 
+    --titleShadow-1: #ededed; 
+    --titleShadow-2: #00000026;
+    --titleColor-3: #2b2b2b;
+}
+
+/* ----- Stil för form ----- */
+form {
+	max-width:1000px; 
+	margin:0 auto; 
+	text-align: center; 
+	background-color: var(--bvS24-bg); 
+	padding: 10px; 
+	border: 2px solid var(--black-bg);
+	color: var(--black-text);
+
+}
+
+fieldset {
+	background-color: var(--white-bg);
+	margin: 20px;
+	border: inherit;
+	box-shadow: 6px 6px 30px var(--black-bg);
+}
+
+form legend {
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+form label {display: block;}
+
+form button {display: block; margin: 0 auto;}
+
+/* ----- Stil för form  max-width:700px----- */
+@media screen and (max-width:700px) {
+	#form {text-align:left;}
+	#form label span {float:none; display:block;}
+}
+
+/* ----- Stil för form  max-width:400px----- */
+@media screen and (max-width:400px) {
+	#form input[type=text], #form textarea {width:96%;}
+}

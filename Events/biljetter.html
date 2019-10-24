@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Events | The Official Webbsite of The Wolfs</title>
+    <link rel = "icon" href = "../pics/wolfIcon.png" type = "image/x-icon">
+    <link href="../style/style.css" type="text/css" rel="stylesheet">
+    <link href="../style/forms.css" type="text/css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id=wrapper>
+        <header>
+            <h1></h1>
+        </header>
+        <nav>
+            <ul id = "globalNavigering">
+                <li><a href="../startsida.html">Startsida</a></li>
+                <li><a href="../matcher.html">Matcher</a></li>
+                <li><a href="../events.html" id="thisSection">Events</a></li>
+                <li><a href="../webbshop.html">Webbshop</a></li>
+                <li><a href="../ungdomsTraning.html">Ungdomsträning</a></li>
+                <li><a href="../amerikanskFotboll.html">Amerikansk Fotboll</a></li>
+                <li><a href="../sponsorer.html">Sponsorer</a></li>
+            </ul>
+            <ul id = "localNavigering">
+                <li><a href="schema.html">Schema</a></li>
+                <li><a href="infoEvents.html">Info events</a></li>
+                <li><a id="thisPage" href="biljetter.html">Biljetter</a></li>
+            </ul>
+            <ul id="breadcrumb">
+                    <li>
+                        <a class="breadcrumb" href="../startsida.html">Startsida &gt;</a>
+                    </li>
+                    <li>
+                        <a class="breadcrumb" href="../events.html">Events &gt;</a>
+                    </li>
+                    <li>
+                        <span class="breadcrumb">Biljetter</span>
+                    </li>
+            </ul>
+        </nav>
+        <main>
+            <form id="notificationForm" name="notificationForm" method="post" action="">
+                <fieldset>
+                    <h2>Biljetter</h2>    
+                    <label>Event</label>
+                    <select name="size" class="form-control" id="size" required="true">
+                        <option value="">Välj event</option>
+                        <option value="Event 1 &#64; The Wolfs Pacs Arena">Event 1 &#64; The Wolfs Pacs Arena</option>
+                        <option value="Event 2 &#64; The Wolfs Pacs Arena">Event 2 &#64; The Wolfs Pacs Arena</option>
+                        <option value="Event 3 &#64; The Wolfs Pacs Arena">Event 3 &#64; The Wolfs Pacs Arena</option>
+                        
+                    </select>
+                    <br>
+                    <br>
+                    <label>Antal</label>
+                    <select name="quantity" class="form-control" id="quantity" required="true">
+                        <option value="">Välj antal</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <h2>Kostnad: Biljetpris * antal</h2>
+                </fieldset>
+                
+                <fieldset>
+                    <h2>Leverans</h2>
+                    <select name="quantity" class="form-control" id="quantity" required="true">
+                        <option value="">Välj Leverans</option>
+                        <option value="Mobil">Mobil</option>
+                        <option value="Email">Email</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <h2>Betalning</h2>
+                    <label>Betalsätt</label>
+                    <select name="quantity" class="form-control" id="quantity" required="true">
+                        <option value="">Välj Betalsätt</option>
+                        <option value="Swish">Swish</option>
+                        <option value="Bankkort">Bankkort</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <h2>Dina uppgifter</h2>
+                    
+                    <label for="För- och efternamn">För- och efternamn</label>
+                    <input type="text">
+                    <br>
+                    <br>
+
+                    <label for="Mobilnummer">Mobilnummer</label>
+                    <input type="text">
+                    <br>
+                    <br>
+
+                    <label for="E-postadress">E-postadress</label>
+                    <input type="email">
+                    <br>
+                    <br>
+
+                    <label for="Gatuadress">Gatuadress</label>
+                    <input type="text">
+                    <br>
+                    <br>
+
+                    <label for="Postnummer">Postnummer</label>
+                    <input type="text">
+                    <br>
+                    <br>
+
+                    <label for="Postort">Postort</label>
+                    <input type="text">
+                    <br>
+                    <br>
+                </fieldset>
+                
+                <fieldset>
+                    <label><input type="checkbox" name="sendAd" required = "true">Jag godkänner villkoren för köp, <a href="../kopVillkor.html" target="blank">(öppnar i nytt fönster)villkor</a></label>
+                    <br>
+                    <input type="submit" value="Slutför köp">
+                </fieldset>
+                
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <br>
+            Joel Martelleur
+            <br>
+            <hr>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

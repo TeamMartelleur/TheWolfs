@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*---varibalar till färger---*/
+:root {
+    --black-bg: #000000; /*svart bakgrund*/
+    --white-bg: #ffffff; /*vit bakgrund*/  
+    --purple-bg: #800080; /*purple*/
+    --gy-bg: #000066; /*darkBlue*/
+    --bv-bg:  #8a2be2; /*blueViolette*/
+    --pS24-bg: #806180; /*purple saturnation 24%*/
+    --bvS24-bg: #c6abe0; /*blueViolette saturnation 24%*/
+    --dBS24-bg: #4e4e66; /**darkBlue saturnation 24%*/
+    --black-text: #000000; /*normal text*/
+    --white-text: #ffffff; /*vit text*/ 
+    --titleShadow-1: #ededed; 
+    --titleShadow-2: #00000026;
+    --titleColor-3: #2b2b2b;
+}
+
+/*---cascade för bakgrund---*/
+#schema {
+    width: 80%; 
+    background-color:var(--bvS24-bg); 
+    margin: 0 auto; 
+    padding:5%;
+    border-radius: 10px;
+    border: 3px solid var(--black-bg);
+}
+
+#schema h2, #schema h3{
+    font-size: 2em; 
+    text-align: center;
+    padding: 10px;
+    color: var(--black-text);  
+}
+
+
+/* Stil så att biljett-länkarna ser ut som en knapp */
+#schema a {
+    background-color: var(--purple-bg); 
+    padding:1px; text-decoration:none; 
+    color:var(--white-text); 
+    float: right;
+}
+#schema a:link,#schema a:visited {
+    border:3px outset var(--gy-bg);
+}
+#schema a:hover,#schema a:active {
+    border:3px inset var(--gy-bg);
+}
+
+
+/* Stil så att info-länkarna ser ut som en knapp */
+#schema .info {
+    background-color:
+    var(--purple-bg); 
+    padding:1px; 
+    text-decoration:none; 
+    color:var(--white-text); 
+    float: left;
+}
+#schema .info:link,#schema .info:visited {
+    border:3px outset var(--gy-bg);
+}
+#schema .info:hover,#schema .info:active {
+    border:3px inset var(--gy-bg);
+}
+
+/*---cascade för matcherna---*/
+#schema .match{
+    background-color: var(--white-bg);
+    margin: 20px;
+    border-radius: inherit;
+    border: inherit;
+    box-shadow: 3px 3px 15px var(--black-bg);
+}
+
+/*---cascade för eventsen---*/
+#schema .event{
+    background-color: var(--white-bg);
+    margin: 20px;
+    border-radius: inherit;
+    clear: both;
+    border: inherit;
+    box-shadow: 3px 3px 15px var(--black-bg);
+}
+
+.match img {width: 40px;}
+
+
+.event img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+}
+
+/* ----- Stil för form  max-width:750px----- */
+@media screen and (max-width:850px) {
+    #schema h2, #schema h3 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #schema img {
+        display: none;
+    }
+    #schema .info {
+        display: none;
+    }
+    #schema a {
+        float: none;
+        display: block;
+    }
+}
+@media screen and (max-width:400px) {
+    #schema .match {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #schema .event{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+    
+}
+

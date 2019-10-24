@@ -1,0 +1,8 @@
+#indexDiv img {
+    display: block;
+    margin: 0 auto;
+}
+
+#indexDiv h1 {
+    text-align: center;
+}

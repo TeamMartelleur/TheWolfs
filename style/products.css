@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*---varibalar till färger---*/
+:root {
+    --black-bg: #000000; /*svart bakgrund*/
+    --white-bg: #ffffff; /*vit bakgrund*/  
+    --purple-bg: #800080; /*purple*/
+    --gy-bg: #000066; /*darkBlue*/
+    --bv-bg:  #8a2be2; /*blueViolette*/
+    --pS24-bg: #806180; /*purple saturnation 24%*/
+    --bvS24-bg: #c6abe0; /*blueViolette saturnation 24%*/
+    --dBS24-bg: #4e4e66; /**darkBlue saturnation 24%*/
+    --black-text: #000000; /*normal text*/
+    --white-text: #ffffff; /*vit text*/ 
+    --titleShadow-1: #ededed; 
+    --titleShadow-2: #00000026;
+    --titleColor-3: #2b2b2b;
+}
+
+
+
+/* ----- Stil för produkterna ----- */
+#products figure {
+	float:left; 
+	width: 16.66666666666667%; /*250px/1500*/ 
+	margin:0.66666666666667%; /*10px*/ 
+	padding:0.66666666666667%; /*10px*/
+	background-color:var(--bvS24-bg); 
+    border:3px solid var(--white-bg);
+}
+#products img {
+	width:100%;
+}
+#products h4, #products p {
+	margin:0; 
+    padding:0;
+    color: var(--black-text);
+}
+
+#products h3 { 
+	color: var(--white-text);
+	font-size: 2em;
+	text-align: center;
+}
+
+/* Stil så att Köp-länken ser ut som en knapp */
+#products a {background-color: var(--purple-bg); padding:1px; text-decoration:none; color:var(--white-text); float:right;}
+#products a:link,#products a:visited {border:3px outset var(--gy-bg);}
+#products a:hover,#products a:active {border:3px inset var(--gy-bg);}
+
+
+/* Interaktivitet för att förstora bilderna, då man klickar på dem. */
+/* I HTML-koden finns en input av type="checkbox". Klick förstorar bilden. Klick igen förminskar bilden. */
+#products input[type=checkbox] {
+    display:none;
+}
+#products img {
+    cursor:pointer; 
+    transition:transform 1s ease;
+}
+#products input[type=checkbox]:checked + img {
+    transform:scale(3);
+}
+
+
+
+
+/* ----- Stil för form  max-width:1000px----- */
+@media screen and (max-width:1000px) {
+    #products figure {
+	width: 29%; /*435px/1500*/ 
+	margin:0.66666666666667%; /*10px*/ 
+	padding:0.66666666666667%; /*10px*/
+	background-color:var(--bvS24-bg); 
+    border:4px solid var(--white-bg);
+}
+}
+/* ----- Stil för form  max-width:500px----- */
+@media screen and (max-width:500px) {
+    #products figure { 
+        width: 94%; 
+        margin:0.66666666666667%; /*10px*/ 
+        padding:0.66666666666667%; /*10px*/
+        background-color:var(--bvS24-bg); 
+        border:4px solid var(--white-bg);
+    }
+    #products img {
+        cursor:initial; 
+    }
+    #products input[type=checkbox]:checked + img {
+        transform:scale(1);
+    }
+}

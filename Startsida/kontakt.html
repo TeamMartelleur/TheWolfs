@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ungdomsträning | The Official Webbsite of The Wolfs</title>
+    <link rel = "icon" href = "../pics/wolfIcon.png" type = "image/x-icon">
+    <link href="../style/style.css" type="text/css" rel="stylesheet">
+    <link href="../style/forms.css" type="text/css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id=wrapper>
+        <header>
+           <h1></h1>
+        </header>
+        <nav>
+            <ul id = "globalNavigering">
+                <li><a href="../startsida.html" id="thisSection" target="_blank">Startsida</a></li>
+                <li><a href="../matcher.html">Matcher</a></li>
+                <li><a href="../events.html">Events</a></li>
+                <li><a href="../webbshop.html">Webbshop</a></li>
+                <li><a href="../ungdomsTraning.html">Ungdomsträning</a></li>
+                <li><a href="../amerikanskFotboll.html">Amerikansk Fotboll</a></li>
+                <li><a href="../sponsorer.html">Sponsorer</a></li>
+            </ul>
+            <ul id = "localNavigering">
+                <li><a href="../startsida.html">Nyheter</a></li>
+                <li><a href="arena.html">Arena</a></li>
+                <li><a href="kontakt.html"  id="thisPage">Kontakt</a></li>
+                <li><a href="webbkarta.html">Webbkarta</a></li>
+            </ul>
+            <ul id="breadcrumb">
+                    <li>
+                        <a class="breadcrumb" href="../startsida.html">Startsida &gt;</a>
+                    </li>
+                    <li>
+                        <span class="breadcrumb">Kontakt</span>
+                    </li>
+            </ul>
+        </nav>
+        <main>
+            <form id="notificationForm" name="notificationForm" method="post" action="">
+                <fieldset>
+                    <h3>Kontaktformulär</h3>
+                </fieldset>
+                
+                <fieldset>
+                    <h3>Fyll i uppgifter och fråga</h3>
+                    <input type="hidden" name="form" value="Kontakt">
+                    <label>Förnamn</label>
+                    <input type="text" name="firstName">
+                    <label>Efternamn</label> 
+                    <input type="text" name="surName">
+                    <label>E-post</label>
+                    <input type="email" name="email">
+                    <label>Fyll i fråga</label>
+                    <textarea type="text" name="question"></textarea>
+                </fieldset>
+                
+                <fieldset>
+                    <h3>Skicka kontaktformuläret</h3>
+                    <label><input type="checkbox" name="sendAd" checked>Jag godkänner villkoren för Kontaktformulär</label>
+                    <input type="submit" value="Skicka">
+                </fieldset>
+            </form>
+            
+        </main>
+        <footer>
+            <hr>
+            <br>
+            Joel Martelleur
+            <br>
+            <hr>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>
