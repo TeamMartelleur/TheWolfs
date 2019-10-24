@@ -247,8 +247,13 @@ footer .hrLinje {
 }
 /* ----- Stil för form  max-width:950px----- */
 @media screen and (max-width:950px) {
+    /*background-image:url("../pics/nflIcon.png"),url("../pics/wolfIcon.png"); 
+    background-position:right center, left center; 
+    background-repeat:no-repeat, no-repeat;*/
     header {
-        background-image:none;
+        background-image:url("../pics/wolfIconMedium.png"),url("../pics/wolfIconMedium.png");
+        background-position:right center, left center; 
+        background-repeat:no-repeat, no-repeat;
         height: 150px;
         }
     header ::before {
@@ -300,8 +305,11 @@ footer .hrLinje {
 /* ----- Stil för form  max-width:500px----- */
 @media screen and (max-width:500px) { 
     header {
+        background-image:url("../pics/wolfIconSmall.png"),url("../pics/wolfIconSmall.png");
+        background-position:right center, left center; 
+        background-repeat:no-repeat, no-repeat;
         height: 100px;
-    }
+        }
     header ::before {
         font-size: 1.5em;
     }
