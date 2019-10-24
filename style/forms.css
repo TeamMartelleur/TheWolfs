@@ -18,7 +18,7 @@
 }
 
 /* ----- Stil för form ----- */
-form {
+main form {
 	max-width:1000px; 
 	margin:0 auto; 
 	text-align: center; 
@@ -29,28 +29,28 @@ form {
 
 }
 
-fieldset {
+main fieldset {
 	background-color: var(--white-bg);
 	margin: 20px;
 	border: inherit;
 	box-shadow: 6px 6px 30px var(--black-bg);
 }
 
-form legend {
+main form legend {
 	margin: 0 auto;
 	font-size: 2em;
 }
 
-form label {display: block;}
+main form label {display: block;}
 
-form button {display: block; margin: 0 auto;}
+main form button {display: block; margin: 0 auto;}
 
 /* ----- Stil för form  max-width:500px----- */
 @media screen and (max-width:500px) {
-	form legend {
+	main form legend {
 		font-size: 1em;
 	}
-	fieldset {
+	main fieldset {
 		margin: 0px;
 		box-shadow: 1px 1px 10px var(--black-bg);
 	}
@@ -59,11 +59,11 @@ form button {display: block; margin: 0 auto;}
 }
 /* ----- Stil för form  max-width:300px----- */
 @media screen and (max-width:300px) {
-	form {
+	main form {
 		padding:0;
 	}
 	
-	fieldset {
+	main fieldset {
 		box-shadow: none;
 		border-left:0;
 		border-right:0;

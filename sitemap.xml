@@ -11,6 +11,13 @@
    <url><loc>https://martelleur.github.io/TheWolfs/amerikanskFotboll.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/sponsorer.html</loc></url>
    
+
+   <!--Startsida-->
+   <url><loc>https://martelleur.github.io/TheWolfs/Startsida/arena.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Startsida/kontakt.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Startsida/webbkarta.html</loc></url>
+   
+
    <!--Matcher-->
    <url><loc>https://martelleur.github.io/TheWolfs/Matcher/schema.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/Matcher/tidigareMatcher.html</loc></url>

@@ -18,7 +18,7 @@
 }
 
 /*---Cascade for table---*/
-.tableDiv {
+main .tableDiv {
     width: 80%; /*1200/1500*/
     background-color: var(--white-bg);
     color: var(--black-text); 
@@ -28,47 +28,47 @@
 
 
 }
-th, td {
+main th,main td {
     border: 1px	solid var(--black-bg); 
     padding: 5px;}
-table {
+main table {
     border-collapse:collapse;  
     max-width: 800px; 
     margin: 0 auto;
     box-shadow: 1px 1px 5px var(--black-bg);
     margin-bottom: 2%; /*30px;*/
 }
-tr {
+main tr {
     background-color: var(--white-bg);
     color: var(--black-text);
 }
-th {
+main th {
     background-color: var(--white-bg); 
     color: var(--black-text);
 }
-tr:nth-child(odd) {
+main tr:nth-child(odd) {
     background-color:var(--bvS24-bg);
 }
 /*---media query max-width:750px ---*/
 @media screen and (max-width:750px) {
-    .tableDiv {
+    main .tableDiv {
         width: 95%;
 
     }
-    .tableDiv h1 {
+    main .tableDiv h1 {
         font-size: 1.5em;
     }
 }
 /*---media query max-width:500px ---*/
 @media screen and (max-width:500px) {
-    .tableDiv {
+    main .tableDiv {
         border-radius: 0;
     }
-    table {
+    main table {
         box-shadow: none;
         width: 100%;
     }
-    th,td {
+    main th, main td {
         display: block;
     }
 }
