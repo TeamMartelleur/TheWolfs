@@ -1,32 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+   <!--index.html samt globala sidorna-->
    <url><loc>https://martelleur.github.io/TheWolfs/index.html</loc></url>
-   
-   
    <url><loc>https://martelleur.github.io/TheWolfs/startsida.html</loc></url>
-   
-   
    <url><loc>https://martelleur.github.io/TheWolfs/matcher.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/events.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/ungdomsTraning.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/webbshop.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/amerikanskFotboll.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/sponsorer.html</loc></url>
+   
+   <!--Matcher-->
    <url><loc>https://martelleur.github.io/TheWolfs/Matcher/schema.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/Matcher/tidigareMatcher.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/Matcher/biljetter.html</loc></url>
    
-   
-   <url><loc>https://martelleur.github.io/TheWolfs/events.html</loc></url>
+   <!--Events-->
    <url><loc>https://martelleur.github.io/TheWolfs/Events/biljetter.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/Events/infoEvents.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/Events/schema.html</loc></url>
    
+   <!--Ungdom-->
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/onlineSpel.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/anmalningsformular.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/f10.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/f12.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/f14.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/f16.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/p10.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/p12.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/p14.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/p16.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherF10.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherF12.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherF14.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherF16.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherP10.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherP12.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherP14.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/matcherP16.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/traningstiderHt2019.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Ungdom/traningstiderVt2020.html</loc></url>
    
-   <url><loc>https://martelleur.github.io/TheWolfs/webbshop.html</loc></url>
-   
-   
-   <url><loc>https://martelleur.github.io/TheWolfs/ungdomsTraning.html</loc></url>
-   
-   
-   <url><loc>https://martelleur.github.io/TheWolfs/amerikanskFotboll.html</loc></url>
+   <!--AmerikanskFotboll-->
    <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/historia.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/speletsIdé.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/regler.html</loc></url>
@@ -35,7 +52,30 @@
    <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/domare.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/AmericanFotboll/utrustning.html</loc></url>
    
-   
-   <url><loc>https://martelleur.github.io/TheWolfs/sponsorer.html</loc></url>
-    
+   <!--Sponsorer-->
+   <url><loc>https://martelleur.github.io/TheWolfs/Sponsorer/mcDonalds.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Sponsorer/cocaCola.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/Sponsorer/microsoft.html</loc></url>
+
+   <!--WebbShop-->
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/fullMatchutrustning.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/hjalmar.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/skorMatch.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/skydd.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/skorDam.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/jerseysDam.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/jackorDam.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/shortsByxorDam.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/skorHerr.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/jerseysHerr.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/jackorHerr.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/shortsByxorHerr.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/skorBarn.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/jerseysBarn.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/jackorBarn.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/shortsByxorBarn.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/bollar.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/traningsDockor.html</loc></url>
+   <url><loc>https://martelleur.github.io/TheWolfs/WebbShop/koner.html</loc></url>
+
 </urlset>
