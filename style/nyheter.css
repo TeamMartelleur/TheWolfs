@@ -42,8 +42,7 @@
 	margin: inherit;
 	color: var(--black-text);   
 	background-color: var(--white-bg); 
-	clear: 
-	both;
+	clear: both;
 	border-radius: inherit;   
 }
 
@@ -124,8 +123,15 @@
 
 /* ----- Stil för form  max-width:350px----- */
 @media screen and (max-width:400px) {
+	#news {
+		margin: 0px;
+		border-radius: 0;
+	}
+	#news figure {
+		box-shadow: none;
+	}
 	#news video {
-		height: 100px;
+		height: 150px;
 	}
 	.news h3 {
 		font-size: 1em;
