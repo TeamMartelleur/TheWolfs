@@ -319,6 +319,9 @@ footer .hrLinje {
 }
 /* ----- Stil för form  max-width:250px----- */
 @media screen and (max-width:250px) {
+    header {
+        background-image: none;
+    }
     header ::before {
         font-size: 1em;
     }
