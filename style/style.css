@@ -262,13 +262,22 @@ footer .hrLinje {
 }
 /* ----- Stil för form  max-width:750px----- */
 @media screen and (max-width:750px) {
+    #globalNavigering {
+        width: 90%;
+        margin: 0 auto;
+        padding:0;
+    }
 
     #globalNavigering li{
         display: block;
-        margin-bottom:5px;
+        margin: 0;
+        padding: 0;
+        margin-bottom:5px; 
+        
     }
     #globalNavigering a {
-        width:90%
+        width:80%;
+
     }
     #localNavigering a {
         padding: 0px;
@@ -281,59 +290,27 @@ footer .hrLinje {
     }
     #localNavigering {
         border: 3px solid var(--black-bg);
-        width: 90%;
+        box-shadow: 1px 1px 10px var(--black-bg);
+        width: 80%;
         margin: 0 auto;
-        padding:5px;
-        box-shadow: 1px 1px 5px var(--black-bg);
+        padding:0;
     }
 }
 /* ----- Stil för form  max-width:500px----- */
-@media screen and (max-width:500px) {
-    #wrapper {
-        border: none;
-    }
+@media screen and (max-width:500px) { 
     header {
-        border-top: 3px solid var(--black-bg);
-        border-bottom: 3px solid var(--black-bg);
-        height: 100px; 
+        height: 100px;
     }
-    main {
-        border: 3px solid var(--black-bg);
-    }
-    footer {
-        border: 3px solid var(--black-bg);
-    }
-
     header ::before {
         font-size: 1.5em;
     }
-    nav {
-        background-color: var(--black-bg);
-        border: none;
-    }
-    #globalNavigering {
-        width: 100%;
-        padding: 0;
-    }
-    #globalNavigering li {
-        margin: 0;
-    }
-    #globalNavigering a {
-        box-shadow: none;
-        width: 100%;
-        border: none;
-        border-bottom: 3px solid var(--black-bg);
-    }
+    
     nav #search {
         display: none;
     }
-    #localNavigering {
-        width:100%;
-        box-shadow: none;
-        border: none;
-        border-bottom: 3px solid var(--black-bg);
+    #globalNavigering {
+        margin-top: 10px;
     }
-    
 }
 /* ----- Stil för form  max-width:250px----- */
 @media screen and (max-width:250px) {
