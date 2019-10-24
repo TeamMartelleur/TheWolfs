@@ -304,10 +304,6 @@ footer .hrLinje {
     header ::before {
         font-size: 1.5em;
     }
-    
-    nav #search {
-        display: none;
-    }
     #globalNavigering {
         margin-top: 10px;
     }
