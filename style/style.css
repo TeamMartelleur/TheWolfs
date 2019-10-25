@@ -52,7 +52,6 @@ header ::before {
     text-shadow: 1px 1px 0px var(--titleShadow-1), 4px 4px 0px var(--titleShadow-2);
 }
 
-
 /*---Cascade for boody---*/
 body {
     font-size:12px; 
