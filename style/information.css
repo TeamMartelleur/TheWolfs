@@ -18,7 +18,7 @@
 }
 
 /*---cascade för omgivningen---*/
-.event, .sponsor, .juniorlag, .online, .amerikanskFotboll {
+.event, .sponsor, .juniorlag, .online, .amerikanskFotboll, #webbkarta {
     display: block;
     background-color: var(--bvS24-bg);
     max-width: 66.66666666666667%; /*1000/1500*/

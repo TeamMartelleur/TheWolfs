@@ -208,7 +208,18 @@ main {
     padding-top:0.66666666666667%; /*10/1500*/ 
     clear:both;
 }
-main::after {content:" "; display:block; clear:both;}
+main::after {
+    content:" "; 
+    display:block; 
+    clear:both;
+}
+
+main iframe {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid var(--white-bg);
+}
 
 /*---Cascade for footer---*/
 footer {

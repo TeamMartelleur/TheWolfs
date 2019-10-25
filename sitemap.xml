@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   
+   
    <!--index.html samt globala sidorna-->
    <url><loc>https://martelleur.github.io/TheWolfs/index.html</loc></url>
    <url><loc>https://martelleur.github.io/TheWolfs/startsida.html</loc></url>
