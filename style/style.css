@@ -37,7 +37,7 @@ html {
 header {text-align: center;}
 header { 
     height:225px; 
-    background-image:url("../pics/nflIcon.png"),url("../pics/wolfIcon.png"); 
+    background-image:url("../pics/wolfIcon.png"),url("../pics/wolfIcon.png"); 
     background-position:right center, left center; 
     background-repeat:no-repeat, no-repeat;
     background-color: var(--white-bg);
